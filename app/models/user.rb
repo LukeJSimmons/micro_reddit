@@ -3,4 +3,5 @@ class User < ApplicationRecord
   validates :username, :id, uniqueness: true
 
   has_many :posts
+  has_many :comments
 end
